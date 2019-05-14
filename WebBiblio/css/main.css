@@ -1,0 +1,79 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.menu-principal{
+	background: #808080;
+	height: 70px;
+
+
+}
+
+main{
+	margin: 0 auto;
+	width: 980px;
+	position: relative;
+}
+
+.logo{
+	padding-top: 5px;
+	background: #808080;
+	height: 60px;
+	width: 70%;
+	float: left;
+
+}
+
+.logo-sociais ul li {
+	margin-left: 3px;
+	display: inline-block;
+	height: 10px;
+	list-style: none;
+}
+
+.logo-sociais{
+	height: 70px;
+	float: right;
+}
+
+.login{
+	border: #808080;
+	box-sizing: 2px;
+	position: absolute;
+	left: 350px;
+	top: 200px;
+	font-family: Arial;
+	color: #808080;
+	text-align: center;
+}
+
+.login button{
+	font-family: Arial;
+	color: #808080;
+	font-size: 16px;
+
+	position: absolute;
+	left: 150px;
+	top: 70px;
+
+}
+
+#rodape {
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	background-color: #808080;
+	bottom: 0px;
+	
+}
+
+#rodape footer {
+	padding-top: 15px;
+	font-family: Arial;
+	font-size: 14px;
+	margin-left: 50px;
+	text-align: center;
+
+}

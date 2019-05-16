@@ -47,7 +47,7 @@ main{
 }
 
 .menu-lateral{
-	width: 200px;
+	width: 180px;
 	height: 700px;
 	background-color: #A9A9A9;
 	margin: 0;
@@ -60,7 +60,7 @@ main{
 	background-color: #A9A9A9;
 	color: black;
 	display: block;
-	padding: 12px;
+	padding: 10px;
 	text-align: left;
 	text-decoration: none;
 }
@@ -72,6 +72,16 @@ main{
 .menu-lateral ul li{
 	display: inline-block;
 }
+
+.menu-lateral span{
+	text-align: center;
+}
+
+.menu-lateral img{
+	margin-left: 10px;
+}
+
+
 #nav{
 	margin: 0;
 }

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<script type="text/javascript" src="./js/login.js"></script>
 	<title>Biblioteca Online Faculdade</title>
 </head>
 <body>
@@ -27,20 +28,26 @@
 
 	<main>
 		<div class="login">
-			<form name="login" onsubmit="return validateForm();" method="POST">
+			<form name="loginform1">
 			<table>
 				<tr>
 					<td>Nome: </td>
-					<td><input type="text" name="usuario" size="30"/><br/></td>
+					<td><input type="text" id="usuario" size="30"/><br/></td>
 
 				</tr>
 				<tr>
 					<td>Senha: </td>
-					<td><input type="text" name="senha" size="30"/><br/></td>
+					<td><input type="password" id="senha" size="30"/><br/></td>
+				</tr>
+
+				<tr>
+					<td id="esqueceu-link"><a href="#">Esqueceu a senha?</a></td>
+					<td><button type = "submit" id= "btn-login" nome="login-1" onclick="loginform()">Entrar</button></td>
 				</tr>
 			</table>
 
-			<button id= "btn-login" nome="login-1">Entrar</button>
+			
+			
 			</form>
 		</div>
 	</main>
@@ -51,6 +58,7 @@
 
 	</div>
 	
-	<script type="text/javascript" src="./js/login.js"></script>
+
+<script type="text/javascript" src="./js/login.js"></script>	
 </body>
 </html>

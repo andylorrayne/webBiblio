@@ -81,8 +81,25 @@ main{
 	margin-left: 10px;
 }
 
+
 #nav{
 	margin: 0;
 	padding-top: 20px;
 
+}
+
+.conteudo-dinamico{
+	font-size: 20px;
+	position: absolute;
+	padding: 12px;
+	left: 250px;
+	top: 150px;
+	font-family: Arial;
+	color: #808080;
+	text-align: left;
+
+}
+
+.conteudo-dinamico table{
+	border-style: solid;
 }

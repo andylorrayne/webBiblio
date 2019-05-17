@@ -28,7 +28,7 @@ main{
 
 
 
-#rodape {
+.rodape {
 	position: absolute;
 	height: 50px;
 	width: 100%;
@@ -37,7 +37,7 @@ main{
 	
 }
 
-#rodape footer {
+.rodape footer {
 	padding-top: 15px;
 	font-family: Arial;
 	font-size: 14px;
@@ -46,6 +46,7 @@ main{
 
 }
 
+
 .menu-lateral{
 	width: 180px;
 	height: 700px;
@@ -53,6 +54,21 @@ main{
 	margin: 0;
 
 }
+
+	@media(min-height: 900px){
+		.menu-lateral{
+			max-height: : 900px;
+			padding: 0;
+		}
+	}
+
+	@media(min-width: : 180px){
+		.menu-lateral ul{
+			max-width: 180px;
+			padding: 0;
+		}
+	}
+
 
 .menu-lateral a{
 	font-family: arial;
